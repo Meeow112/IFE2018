@@ -1,0 +1,43 @@
+
+ul {
+	display: block;
+	list-style-type: none;
+	border: 1px solid black;
+	padding: 0;
+}
+
+.info li,
+.cont li {
+	border: 1px solid black;
+	zoom: 1;
+	float: left;
+	display: block;
+	margin-right: 30px;
+}
+
+.info li span,
+.cont li span {
+	margin-right: 10px;
+}
+
+ul:after {
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+.desc span,
+.edu span,
+.exp span {
+	display: block;
+}
+
+.option {
+	font-weight: bold;
+}
+
+.section {
+	border: 1px solid black;
+}
