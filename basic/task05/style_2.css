@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	height: 100%;
+}
+
+div {
+	padding: 16px;
+}
+
+.topic {
+	float: left;
+	width: 20%;
+	height: 100%;
+	color: #fff;
+	background: #6495ED;
+}
+
+h1 {
+	text-align: center;
+}
+
+.main {
+	
+}
+
+ul {
+	list-style-type: none;
+}

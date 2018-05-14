@@ -2,13 +2,11 @@
 ul {
 	display: block;
 	list-style-type: none;
-	border: 1px solid black;
 	padding: 0;
 }
 
 .info li,
 .cont li {
-	border: 1px solid black;
 	zoom: 1;
 	float: left;
 	display: block;
@@ -34,10 +32,12 @@ ul:after {
 	display: block;
 }
 
-.option {
-	font-weight: bold;
+.desc li,
+.edu li,
+.exp li {
+	margin-bottom: 10px;
 }
 
-.section {
-	border: 1px solid black;
+.option {
+	font-weight: bold;
 }
