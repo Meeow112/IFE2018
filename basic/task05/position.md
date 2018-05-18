@@ -12,6 +12,7 @@
 
 如果对一个元素进行相对定位，通过设置垂直或水平位置，可以让这个元素“相对于”它的起点移动。
 例如：将top设置为20像素，那么框将出现在原位置顶部下面20像素的地方，如果将left设置为20像素，那么元素将向右移动20像素。
+
 ```javascript
 #box1 {
 	position: relative;
@@ -31,7 +32,18 @@
 
 最后一种可视化格式模型是浮动模型，浮动的框会脱离文档流左右移动，知道它的边缘碰到包含框的边缘为止，因为它不处于文档流中，所以不占据空间。
 
-但是正因为这个特性，浮动会让元素脱离文档流，不再影响不浮动的元素，造成后续元素的坍塌，
+但是正因为这个特性，浮动会让元素脱离文档流，不再影响不浮动的元素，造成后续元素的坍塌，因此需要对后续元素使用clear属性来清除浮动。
 
+具体的清除浮动的在一些资料和笔记中都有提到，就不在这里赘述了，这里会比较推荐一种通过使用:after伪类和内容声明来清除浮动的方法：
+
+```javascript
+.clear:after {
+	content: ".";
+	height: 0;
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+```
 参考文献：
 《CSS Mastery Advanced Web Standards Solutions》- *Andy Budd, Simon Collison, Cameron Moll*
