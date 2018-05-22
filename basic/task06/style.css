@@ -1,5 +1,47 @@
-footer {
+header {
 	height: 80px;
+	background: #363636;
+}
+
+.wrapper-header {
+	width: 80%;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.wrapper-header span {
+	line-height: 80px;
+	float: left;
+}
+
+.wrapper-header nav {
+	float: right;
+}
+
+.wrapper-header a {
+	color: #fff;
+}
+
+.banner {
+	height: 220px;
+	background: #66CD00;
+}
+
+.wrapper-banner {
+	position: relative;
+	width: 80%;
+	height: 220px;
+	margin: 0 auto;
+}
+
+.btn {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+footer {
+	height: 100px;
 	background: #8B8B83;
 }
 
