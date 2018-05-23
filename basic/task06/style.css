@@ -36,8 +36,22 @@ header {
 
 .btn {
 	position: absolute;
-	bottom: 0;
+	bottom: 15px;
 	right: 0;
+	opacity: 0.5;
+}
+
+.btn span {
+	background: #fff;
+	border: solid 1px black;
+	width: 30px;
+	height: 40px;
+	padding: 5px;
+}
+
+.active {
+	height: 60px;
+	opacity: 1.0;
 }
 
 footer {
