@@ -54,6 +54,10 @@ header {
 	opacity: 1.0;
 }
 
+.content {
+	display: flex;
+}
+
 footer {
 	height: 100px;
 	background: #8B8B83;
