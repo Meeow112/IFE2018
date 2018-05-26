@@ -54,8 +54,21 @@ header {
 	opacity: 1.0;
 }
 
-.content {
+.main-content {
 	display: flex;
+	flex-direction: column;
+}
+
+.row1,
+.row2,
+.row3 {
+	display: flex;
+}
+
+.content {
+	display: block;
+	border: solid 1px #888;
+	padding: 80px;
 }
 
 footer {
