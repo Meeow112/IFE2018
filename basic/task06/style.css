@@ -38,7 +38,6 @@ header {
 	position: absolute;
 	bottom: 15px;
 	right: 0;
-	opacity: 0.5;
 }
 
 .btn span {
@@ -47,28 +46,45 @@ header {
 	width: 30px;
 	height: 40px;
 	padding: 5px;
+	opacity: 0.5;
 }
 
-.active {
+#active {
 	height: 60px;
-	opacity: 1.0;
+	opacity: 0.8;
 }
 
 .main-content {
+	height: 560px;
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: stretch;
+	padding: 10px;
 }
 
 .row1,
 .row2,
 .row3 {
+	height: 180px;
+	flex-basis: 80%;
 	display: flex;
+	justify-content: space-between;
 }
 
 .content {
 	display: block;
 	border: solid 1px #888;
 	padding: 80px;
+}
+
+.row1 .content,
+.row3 .content {
+	width: 183px;
+}
+
+.row2 .content {
+	width: 95px;
 }
 
 footer {
