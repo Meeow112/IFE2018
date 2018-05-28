@@ -42,17 +42,65 @@ header {
 
 .btn span {
 	background: #fff;
+	display: inline-block;
 	border: solid 1px black;
-	width: 30px;
-	height: 40px;
+	width: 10px;
+	height: 15px;
 	padding: 5px;
 	opacity: 0.5;
+	line-height: 15px;
+	vertical-align: bottom;
 }
 
 #active {
-	height: 60px;
+	height: 25px;
 	opacity: 0.8;
+	line-height: 35px;
 }
+
+.catalog {
+	width: 80%;
+	margin: 0 auto;
+}
+
+ul.wrapper-catalog {
+	margin: 20px 0 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.wrapper-catalog li {
+	float: left;
+	height: 50px;
+	border-top: solid 1px #888;
+	border-left: solid 1px #888;
+	border-right: solid 1px #888;
+	text-align: center;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.wrapper-catalog:after {
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+.wrapper-catalog a {
+	display: block;
+	width: 100px;
+	line-height: 50px;
+	text-decoration: none;
+}
+
+hr {
+	margin-top: -1px;
+	border: none;
+	border-top: 1px ridge #B8B;
+}
+
 
 .main-content {
 	height: 560px;
