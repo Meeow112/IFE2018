@@ -4,7 +4,7 @@ header {
 }
 
 .wrapper-header {
-	width: 80%;
+	width: 960px;
 	margin: 0 auto;
 	color: #fff;
 }
@@ -29,7 +29,7 @@ header {
 
 .wrapper-banner {
 	position: relative;
-	width: 80%;
+	width: 960px;
 	height: 220px;
 	margin: 0 auto;
 }
@@ -59,7 +59,7 @@ header {
 }
 
 .catalog {
-	width: 80%;
+	width: 960px;
 	margin: 0 auto;
 }
 
@@ -107,8 +107,12 @@ hr {
 	border-top: 1px ridge #888;
 }
 
-
 .main-content {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.wrapper-content {
 	height: 560px;
 	display: flex;
 	flex-wrap: wrap;
@@ -134,11 +138,11 @@ hr {
 
 .row1 .content,
 .row3 .content {
-	width: 183px;
+	width: 150px;
 }
 
 .row2 .content {
-	width: 95px;
+	width: 70px;
 }
 
 footer {
