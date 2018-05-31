@@ -127,7 +127,8 @@ hr {
 	height: 180px;
 	flex-basis: 80%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
+	align-content: space-between;
 }
 
 .content {
