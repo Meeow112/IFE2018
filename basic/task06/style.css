@@ -118,32 +118,32 @@ hr {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: stretch;
-	padding: 10px;
 }
 
 .row1,
 .row2,
 .row3 {
+	width: 960px;
 	height: 180px;
-	flex-basis: 80%;
 	display: flex;
-	justify-content: flex-end;
-	align-content: space-between;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .content {
 	display: block;
+	text-align: center; 
 	border: solid 1px #888;
 	padding: 80px;
 }
 
 .row1 .content,
 .row3 .content {
-	width: 160px;
+	width: 152px;
 }
 
 .row2 .content {
-	width: 80px;
+	width: 70px;
 }
 
 footer {
