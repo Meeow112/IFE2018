@@ -7,3 +7,7 @@
 .banner span {
 	text-align: center;
 }
+
+.banner form {
+	border: solid 1px black;
+}
