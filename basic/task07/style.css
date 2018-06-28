@@ -5,9 +5,12 @@
 
 .banner h1,
 .banner span {
+	display: block;
 	text-align: center;
 }
 
 .banner form {
+	width: 968px;
+	height: 248px;
 	border: solid 1px black;
 }
