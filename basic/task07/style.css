@@ -31,3 +31,8 @@
 	height: 50px;
 }
 
+.boatloads h1,
+.boatloads span {
+	display: block;
+	text-align: center;
+}
