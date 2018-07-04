@@ -60,7 +60,15 @@
 .boat {
 	display: flex;
 	flex-wrap: wrap;
+	align-content: space-between;
 	border: 1px solid black;
+}
+
+.boat1,
+.boat2 {
+	flex-basis: 100%;
+	display: flex;
+	justify-content: space-between;
 }
 
 .boat-icon {
