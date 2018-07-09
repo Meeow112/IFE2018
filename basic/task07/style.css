@@ -58,6 +58,9 @@
 }
 
 .boat {
+	width: 968px;
+	height: 248px;
+	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
 	align-content: space-between;
@@ -66,11 +69,53 @@
 
 .boat1,
 .boat2 {
+	width: 968px;
+	height: 124px;
 	flex-basis: 100%;
 	display: flex;
 	justify-content: space-between;
 }
 
 .boat-icon {
+	width: 484px;
 	border: 1px solid black;
+}
+
+.desc {
+	width: 400px;
+	height: 400px;
+	margin-left: 200px;
+	border: 1px solid black;
+}
+
+.check-button,
+.try-button {
+	width: 185px;
+	height: 50px;
+}
+
+.products {
+	width: 972px;
+	height: 350px;
+	margin: 0 auto;
+}
+
+.products h1 {
+	display: block;
+	text-align: center;
+}
+
+.article {
+	width: 322px;
+	height: 350px;
+	border: 1px solid black;
+	float: left;
+}
+
+.products:after {
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
 }
