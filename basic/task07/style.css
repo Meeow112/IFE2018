@@ -119,3 +119,37 @@
 	visibility: hidden;
 	clear: both;
 }
+
+.schemes {
+	width: 968px;
+	height: 750px;
+	margin: 0 auto;
+	border: 1px solid black;
+	clear: both;
+}
+
+.scheme1,
+.scheme2 {
+	width: 968px;
+	height: 350px;
+	border: 1px solid black;
+}
+
+.scheme1 {
+	margin-bottom: 46px;
+}
+
+.leaf,
+.bird {
+	width: 570px;
+	height: 350px;
+	border: 1px solid black;
+}
+
+.improve,
+.design {
+	width: 392px;
+	height: 350px;
+	padding: 10px;
+	border: 1px solid black;
+}
