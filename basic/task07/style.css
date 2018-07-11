@@ -112,13 +112,7 @@
 	float: left;
 }
 
-.products:after {
-	content: "";
-	display: block;
-	height: 0;
-	visibility: hidden;
-	clear: both;
-}
+
 
 .schemes {
 	width: 968px;
@@ -150,6 +144,12 @@
 .design {
 	width: 392px;
 	height: 350px;
-	padding: 10px;
 	border: 1px solid black;
+}
+
+.leaf,
+.improve,
+.design,
+.bird {
+	float: left;
 }
