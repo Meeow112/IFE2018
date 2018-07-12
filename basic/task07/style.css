@@ -153,3 +153,34 @@
 .bird {
 	float: left;
 }
+
+.crew h1,
+.crew span {
+	display: block;
+	text-align: center;
+}
+
+.crewbox {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 968px;
+  height: 708px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.box1 {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-between;
+  width: 968px;
+  height: 340px;
+  border: 1px solid black;
+}
+
+.item {
+	width: 470px;
+	height: 340px;
+	border: 1px solid black;
+}
