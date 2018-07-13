@@ -184,3 +184,17 @@
 	height: 340px;
 	border: 1px solid black;
 }
+
+.contactform {
+	width: 470px;
+	height: 708px;
+	border: 1px solid black;
+}
+
+#account2,
+#subject,
+#message {
+	display: block;
+	width: 288px;
+	height: 48px;
+}
