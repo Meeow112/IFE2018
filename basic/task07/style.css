@@ -185,16 +185,60 @@
 	border: 1px solid black;
 }
 
+.contact {
+	width: 968px;
+	height: 708px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
 .contactform {
+	float: left;
 	width: 470px;
 	height: 708px;
 	border: 1px solid black;
 }
 
+.contactform h1 {
+	text-align: center;
+}
+
 #account2,
-#subject,
-#message {
+#subject {
 	display: block;
 	width: 288px;
 	height: 48px;
+	margin-bottom: 20px;
+	margin-left: 90px;
+}
+
+#message {
+	display: block;
+	width: 288px;
+	height: 144px;
+	margin-bottom: 20px;
+	margin-left: 90px;
+}
+
+#send-button {
+	width: 288px;
+	height: 48px;
+	margin-left: 90px;
+	background: #000;
+	color: #fff;
+}	
+
+.contactinfo {
+	float: right;
+	width: 492px;
+	height: 708px;
+	border: 1px solid black;
+}
+
+.contactinfo>ul {
+	list-style-type: none;
+}
+
+footer {
+	clear: both;
 }
