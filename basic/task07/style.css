@@ -235,8 +235,19 @@
 	border: 1px solid black;
 }
 
+.contactinfo>h1 {
+	margin-bottom: 20px;
+}
+
+.contactinfo>span {
+	display: block;
+	color: #888;
+}
+
 .contactinfo>ul {
+	margin-top: 20px;
 	list-style-type: none;
+	font-weight: bold;
 }
 
 footer {
