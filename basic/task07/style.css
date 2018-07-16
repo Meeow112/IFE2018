@@ -250,6 +250,23 @@
 	font-weight: bold;
 }
 
-footer {
-	clear: both;
+footer {	
+	color: #fff;
+	background: #000;
+}
+
+footer>ul {
+	list-style-type: none;
+	color: #888;
+}
+
+.column {
+	width: 250px;
+	height: 500px;
+	border: 1px solid black;
+	float: left;
+}
+
+.highlight {
+	font-weight: bold;
 }
