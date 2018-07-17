@@ -255,18 +255,38 @@ footer {
 	background: #000;
 }
 
-footer>ul {
+.wrapper {
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	border: 1px solid #fff;
+}
+
+.notes {
 	list-style-type: none;
 	color: #888;
 }
 
+.notes li {
+	margin-bottom: 20px;
+}
+
 .column {
-	width: 250px;
+	width: 248px;
 	height: 500px;
-	border: 1px solid black;
+	border: 1px solid #fff;
 	float: left;
+}
+
+.column span {
+	display: block;
+	color: #888;
+	font-size: 14px;
+	margin-top: 20px;
 }
 
 .highlight {
 	font-weight: bold;
+	color: #fff;
+	font-size: 14px;
 }
