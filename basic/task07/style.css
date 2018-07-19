@@ -5,8 +5,8 @@
 
 .banner {
 	background: url(img/background.png);
-	width: 1599px;
-	height: 992px;
+	width: 100%;
+	height: 636px;
 }
 
 .banner h1,
@@ -85,6 +85,13 @@
 .boat-icon {
 	width: 484px;
 	border: 1px solid black;
+}
+
+
+.supportive {
+	background: url(img/bg_sup.png);
+	width: 100%;
+	height: 513px;
 }
 
 .desc {
