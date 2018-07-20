@@ -87,6 +87,18 @@
 	border: 1px solid black;
 }
 
+.boat-icon img {
+	display: block;
+	float: left;
+	border: 1px solid black;
+}
+
+.icon-desc {
+	width: 425px;
+	height: 124px;
+	border: 1px solid black;
+	float: right;
+}
 
 .supportive {
 	background: url(img/bg_sup.png);
