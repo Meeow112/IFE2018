@@ -112,9 +112,16 @@
 
 .desc {
 	width: 400px;
-	height: 400px;
+	height: 500px;
 	margin-left: 200px;
 	border: 1px solid black;
+}
+
+.ipad {
+	width: 562px;
+	height: 500px;
+	border: 1px solid black;
+	float: right;
 }
 
 .check-button,
