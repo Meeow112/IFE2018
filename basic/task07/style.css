@@ -150,7 +150,13 @@
 	float: left;
 }
 
+.article img {
+	margin: 20px 100px 20px;
+}
 
+.article span {
+	display: block;
+}
 
 .schemes {
 	width: 968px;
@@ -288,6 +294,26 @@
 	font-weight: bold;
 }
 
+.contactinfo li {
+	margin-top: 20px;
+	padding-left: 29px;
+}
+
+.adress {
+	padding-bottom: 6px;
+	background: url(img/adress.png) 0 0 no-repeat;
+}
+
+.phone {
+	padding-bottom: 5px;
+	background: url(img/phone.png) 0 0 no-repeat;
+}
+
+.mail {
+	padding-bottom: 5px;
+	background: url(img/mail.png) 0 0 no-repeat;
+}
+
 footer {	
 	color: #fff;
 	background: #000;
@@ -327,4 +353,46 @@ footer {
 	font-weight: bold;
 	color: #fff;
 	font-size: 14px;
+}
+
+#twitter {
+	float: left;
+	width: 30px;
+	height: 18px;
+	background: url(img/SNS.png) 0 0 no-repeat;
+}
+
+#facebook {
+	float: left;
+	width: 30px;
+	height: 18px;
+	background: url(img/SNS.png) -40px 0 no-repeat;
+}
+
+#google {
+	float: left;
+	width: 30px;
+	height: 18px;
+	background: url(img/SNS.png) -75px 0 no-repeat;
+}
+
+#tel {
+	float: left;
+	width: 30px;
+	height: 18px;
+	background: url(img/SNS.png) -122px 0 no-repeat;
+}
+
+#weibo {
+	float: left;
+	width: 30px;
+	height: 18px;
+	background: url(img/SNS.png) -163px 0 no-repeat;
+}
+
+#ins {
+	float: left;
+	width: 30px;
+	height: 18px;
+	background: url(img/SNS.png) -200px 0 no-repeat;
 }
