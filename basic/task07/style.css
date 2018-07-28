@@ -11,21 +11,22 @@
 	border: 1px solid black;
 }
 
+.banner h1 {
+	text-align: center;
+	margin-top: 208px;
+}
+
+
 .banner h1>span {
 	display: block;
 	text-align: center;
 	margin-top: 87px;
 }
 
-.banner h1 {
-	text-align: center;
-	margin-top: 208px;
-}
-
 .banner form {
 	width: 968px;
 	height: 248px;
-	margin: 0 auto;
+	margin: 104px auto 210px;
 	border: solid 1px black;
 }
 
