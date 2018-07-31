@@ -5,10 +5,9 @@
 
 .banner {
 	background: url(img/background.png) 0 0 no-repeat;
-	opacity: 1.0;
 	width: 100%;
 	height: 992px;
-	
+	border: solid 1px #fff;
 }
 
 .banner-text {
@@ -161,7 +160,7 @@
 .products {
 	clear: both;
 	width: 972px;
-	height: 350px;
+	height: 580px;
 	margin: 0 auto;
 }
 
