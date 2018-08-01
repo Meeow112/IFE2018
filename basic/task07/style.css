@@ -35,7 +35,7 @@
 	width: 968px;
 	height: 248px;
 	margin: 104px auto 210px;
-	border: solid 1px black;
+	border: solid 1px #fff;
 }
 
 .banner form>h1 {
@@ -53,28 +53,42 @@
 .sign-input {
 	width: 769px;
 	height: 50px;
-	margin: 45px auto 51px;
-	border: 1px solid black;
+	margin: -20px auto;
 }
 
 #account {
 	float: left;
-	width: 288px;
+	width: 268px;
 	height: 48px;
 	margin-right: 30px;
+	border: solid 1px #fff;
+	background: rgba(0,0,0,0);
+	padding-left: 20px;
 }
 
 #password {
 	float: left;
-	width: 288px;
+	width: 268px;
 	height: 48px;
 	margin-right: 30px;
+	border: solid 1px #fff;
+	background: rgba(0,0,0,0);
+	padding-left: 20px;
 }
 
 #sign-button {
 	float: left;
 	width: 125px;
 	height: 50px;
+	background: #fff;
+}
+
+#account::-ms-input-placeholder {
+	color: #fff;
+}
+
+#account::-webkit-input-placeholder {
+	color: #fff;
 }
 
 .boatloads {
@@ -87,6 +101,11 @@
 .boatloads span {
 	display: block;
 	text-align: center;
+}
+
+.boatloads h1 {
+	margin-top: 90px;
+	font-size: 12px;
 }
 
 .boat {
