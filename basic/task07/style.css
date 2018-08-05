@@ -199,14 +199,18 @@
 	width: 972px;
 	height: 580px;
 	margin: 0 auto;
+	border-bottom: solid 1px #e7e7e7;
 }
 
 .products h1 {
+	font-size: 32px;
+	margin-top: 99px;
 	display: block;
 	text-align: center;
 }
 
 .article {
+	margin-top: 72px;
 	width: 322px;
 	height: 350px;
 	border: 1px solid black;
