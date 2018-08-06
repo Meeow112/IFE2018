@@ -168,7 +168,8 @@
 }
 
 .supportive {
-	background: url(img/bg_sup.png);
+	background: url(img/bg_sup.png) #000 0 0 no-repeat;
+	
 	width: 100%;
 	height: 600px;
 }
