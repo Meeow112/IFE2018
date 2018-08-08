@@ -250,18 +250,21 @@
 
 .article {
 	margin-top: 72px;
-	width: 322px;
+	width: 262px;
 	height: 350px;
-	border: 1px solid black;
+	margin-left: 20px;
 	float: left;
 }
 
 .article img {
-	margin: 20px 100px 20px;
+	margin: 20px 82px 20px;
 }
 
 .article span {
 	display: block;
+	font-size: 12px;
+	color: #a0a0a0;
+	text-align: center;
 }
 
 .schemes {
