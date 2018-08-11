@@ -436,24 +436,32 @@
 
 .contactinfo {
 	float: right;
-	width: 492px;
+	width: 362px;
 	height: 558px;
 	border: 1px solid black;
 }
 
-.contactinfo>h1 {
-	margin-bottom: 20px;
+.contactinfo h1 {
+	margin-top: 88px;
+	margin-bottom: 54px;
+	font-size: 32px;
+	color: #141414;
 }
 
-.contactinfo>span {
+.contactinfo span {
+	margin-left: 52px;
 	display: block;
-	color: #888;
+	font-size: 12px;
+	line-height: 24px;
+	color: #797979;
 }
 
-.contactinfo>ul {
-	margin-top: 20px;
+.contactinfo ul {
+	margin-top: 58px;
 	list-style-type: none;
 	font-weight: bold;
+	font-size: 12px;
+	color: #141414;
 }
 
 .contactinfo li {
@@ -462,7 +470,7 @@
 }
 
 .adress {
-	padding-bottom: 6px;
+	padding-bottom: 8px;
 	background: url(img/adress.png) 0 0 no-repeat;
 }
 
