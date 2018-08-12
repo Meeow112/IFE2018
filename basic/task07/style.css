@@ -438,7 +438,6 @@
 	float: right;
 	width: 362px;
 	height: 558px;
-	border: 1px solid black;
 }
 
 .contactinfo h1 {
@@ -448,7 +447,7 @@
 	color: #141414;
 }
 
-.contactinfo span {
+.information {
 	margin-left: 52px;
 	display: block;
 	font-size: 12px;
@@ -456,44 +455,58 @@
 	color: #797979;
 }
 
-.contactinfo ul {
+.contact-list {
 	margin-top: 58px;
-	list-style-type: none;
 	font-weight: bold;
 	font-size: 12px;
 	color: #141414;
 }
 
-.contactinfo li {
-	margin-top: 20px;
-	padding-left: 29px;
+.contact-list span {
+	display: block;
+	float: left
 }
 
-.adress {
-	padding-bottom: 8px;
-	background: url(img/adress.png) 0 0 no-repeat;
+.contact-list img {
+	width: 30px;
+	height: 30px;
+	float: left;
 }
 
-.phone {
-	padding-bottom: 5px;
-	background: url(img/phone.png) 0 0 no-repeat;
-}
-
+.adress,
+.phone,
 .mail {
-	padding-bottom: 5px;
-	background: url(img/mail.png) 0 0 no-repeat;
+	height: 30px;
+	margin-top: 38px;
+	line-height: 30px;
 }
 
-footer {	
+.adress span {
+	width: 160px;
+	line-height: 24px;
+}
+
+.adress img {
+	margin-top: 10px;
+}
+
+.phone img,
+.mail img {
+	margin-top: 2px;
+}
+
+footer {
+	width: 100%;
+	height: 410px;	
 	color: #fff;
-	background: #000;
+	background: #141414;
 }
 
 .wrapper {
 	width: 1000px;
-	height: 500px;
-	margin: 0 auto;
-	border: 1px solid #fff;
+	height: 200px;
+	margin: 85px auto 120px;
+	
 }
 
 .notes {
