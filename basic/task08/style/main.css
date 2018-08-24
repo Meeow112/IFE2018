@@ -1,0 +1,20 @@
+.primary {
+	width: 100px;
+	height: 1020px;
+	background: #1d2531;
+	float: left;
+}
+
+.secondry {
+	width: 250px;
+	height: 1020px;
+	background: #222c3c;
+	float: left;
+}
+
+.main {
+	width: 1230px;
+	height: 1020px;
+	background: #fff;
+	float: left;
+}
