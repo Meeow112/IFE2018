@@ -18,3 +18,33 @@
 	background: #fff;
 	float: left;
 }
+
+.actions {
+	width: 48px;
+	height: 16px;
+	margin: 20px;
+}
+
+.item1 {
+	width: 64px;
+	height: 64px;
+	margin: 18px auto 0;
+}
+
+.item2 {
+	width: 64px;
+	height: 64px;
+	margin: 16px auto 0;
+}
+
+.item3 {
+	width: 64px;
+	height: 65px;
+	margin: 15px auto 0;
+}
+
+.add-items {
+	width: 64px;
+	height: 64px;
+	margin: 16px auto 0;
+}
