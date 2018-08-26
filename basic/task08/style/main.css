@@ -22,29 +22,48 @@
 .actions {
 	width: 48px;
 	height: 16px;
-	margin: 20px;
+	margin: 660px auto 20px;
+}
+
+.grid {
+	width: 16px;
+	height: 16px;
+	float: left;
+	cursor: pointer;
+}
+
+.setting {
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin-left: 16px;
+	cursor: pointer;
 }
 
 .item1 {
 	width: 64px;
 	height: 64px;
 	margin: 18px auto 0;
+	cursor: pointer;
 }
 
 .item2 {
 	width: 64px;
 	height: 64px;
 	margin: 16px auto 0;
+	cursor: pointer;
 }
 
 .item3 {
 	width: 64px;
 	height: 65px;
 	margin: 15px auto 0;
+	cursor: pointer;
 }
 
 .add-items {
 	width: 64px;
 	height: 64px;
 	margin: 16px auto 0;
+	cursor: pointer;
 }
