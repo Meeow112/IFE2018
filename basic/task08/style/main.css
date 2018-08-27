@@ -67,3 +67,30 @@
 	margin: 16px auto 0;
 	cursor: pointer;
 }
+
+.wrapper-secondry {
+	width: 191px;
+	height: 967px;
+	margin: 30px 30px 23px 29px;
+}
+
+.wrapper-secondry span {
+	display: block;
+}
+
+.sub-menu {
+	width: 191px;
+	height: 225px;
+	border-bottom: solid 1px #2a3547;
+}
+
+.catagory {
+	width: 191px;
+	height: 16px;
+}
+
+.catagory span {
+	line-height: 16px;
+	font-size: 10px;
+	color: #5b6779;
+}
