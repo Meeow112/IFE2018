@@ -93,4 +93,144 @@
 	line-height: 16px;
 	font-size: 10px;
 	color: #5b6779;
+	float: left;
+}
+
+.catagory img {
+	width: 16px;
+	height: 16px;
+	float: right;
+	cursor: pointer;
+}
+
+.overview {
+	width: 191px;
+	height: 16px;
+	margin-top: 24px;
+	line-height: 16px;
+	font-size: 10px;	
+}
+
+.sales {
+	width: 191px;
+	height: 16px;
+	margin-top: 20px;
+	line-height: 16px;
+	font-size: 10px;	
+}
+
+.staff {
+	width: 191px;
+	height: 16px;
+	margin-top: 20px;
+	line-height: 16px;
+	font-size: 10px;	
+}
+
+.analytic {
+	width: 191px;
+	height: 16px;
+	margin-top: 20px;
+	line-height: 16px;
+	font-size: 10px;	
+}
+
+.new {
+	width: 191px;
+	height: 16px;
+	margin-top: 20px;
+	line-height: 16px;
+	font-size: 10px;	
+}
+
+.overview a,
+.sales a,
+.staff a,
+.analytic a,
+.new a {
+	color: #b7c0cd;
+}
+
+.products {
+	width: 191px;
+	height: 194px;
+	margin-top: 23px;
+	border-bottom: solid 1px #2a3547;
+}
+
+.books {
+	width: 191px;
+	height: 18px;
+	margin-top: 22px;
+	line-height: 18px;
+	font-size: 10px;
+}
+
+.books img {
+	width: 18px;
+	height: 18px;
+	float: left;
+	margin-left: 1px;
+	margin-right: 12px;
+}
+
+.tutorials {
+	width: 191px;
+	height: 18px;
+	margin-top: 18px;
+	line-height: 18px;
+	font-size: 10px;	
+}
+
+.tutorials img {
+	width: 18px;
+	height: 18px;
+	float: left;
+	margin-left: 1px;
+	margin-right: 11px;
+}
+
+.stocks {
+	width: 191px;
+	height: 20px;
+	margin-top: 18px;
+	line-height: 20px;
+	font-size: 10px;	
+}
+
+.stocks img {
+	width: 18px;
+	height: 20px;
+	float: left;
+	margin-left: 1px;
+	margin-right: 11px;
+}
+
+.infogra {
+	width: 191px;
+	height: 18px;
+	margin-top: 17px;
+	line-height: 18px;
+	font-size: 10px;	
+}
+
+.infogra img {
+	width: 18px;
+	height: 18px;
+	float: left;
+	margin-left: 1px;
+	margin-right: 12px;
+}
+
+.books a,
+.tutorials a,
+.stocks a,
+.infogra a {
+	color: #b7c0cd;
+}
+
+.dashboard {
+	width: 191px;
+	height: 195px;
+	margin-top: 22px;
 }
