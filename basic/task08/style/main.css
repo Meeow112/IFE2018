@@ -234,3 +234,51 @@
 	height: 195px;
 	margin-top: 22px;
 }
+
+.messages {
+	width: 191px;
+	height: 16px;
+	margin-top: 23px;
+	line-height: 16px;
+	font-size: 10px;	
+}
+
+.connections {
+	width: 191px;
+	height: 16px;
+	margin-top: 20px;
+	line-height: 16px;
+	font-size: 10px;	
+}
+
+.integrations {
+	width: 191px;
+	height: 16px;
+	margin-top: 20px;
+	line-height: 16px;
+	font-size: 10px;	
+}
+
+.account {
+	width: 191px;
+	height: 16px;
+	margin-top: 20px;
+	line-height: 16px;
+	font-size: 10px;	
+}
+
+.app {
+	width: 191px;
+	height: 16px;
+	margin-top: 20px;
+	line-height: 16px;
+	font-size: 10px;	
+}
+
+.messages a,
+.connections a,
+.integrations a,
+.account a,
+.app a {
+	color: #b7c0cd;
+}
