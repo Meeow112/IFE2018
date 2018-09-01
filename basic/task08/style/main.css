@@ -435,7 +435,9 @@ body {
 	border: solid 1px #e6e9ec;
 	border-radius: 3px;
 	font-size: 10px;
-	background: url(img/search.jpg) 0 0 no-repeat;
+	background-image: url(../img/search.jpg);
+	background-repeat: no-repeat;
+	background-position: 309px 9px;
 }
 
 #search_blank::-ms-input-placeholder {
