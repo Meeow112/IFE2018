@@ -453,3 +453,40 @@ body {
 	height: 939px;
 	float: right;
 }
+
+.active {
+	width: 396px;
+	height: 129px;
+	border-left: solid 3px #2399f1;
+	border-bottom: solid 1px #e6e9ec;
+}
+
+.active .friend-title {
+	width: 396px;
+	height: 75px;
+}
+
+.active img {
+	width: 46px;
+	height: 46px;
+	margin-top: 15px;
+	margin-left: 27px;
+	float: left;
+}
+
+.active .name-info {
+	width: 303px;
+	height: 75px;
+	margin-left: 20px;
+	float: left;
+}
+
+.active h1 {
+	display: block;
+	font-size: 11px;
+	color: #2399f1;
+	width: 104px;
+	height: 11px;
+	margin-top: 24px;
+	margin-left: 1px;
+}
