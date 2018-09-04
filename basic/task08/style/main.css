@@ -575,3 +575,9 @@ body {
 	color: #585d68;
 	float: left;
 }
+
+.option {
+	width: 830px;
+	height: 69px;
+	border-bottom: solid 1px #e6e9ec;
+}
