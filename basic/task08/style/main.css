@@ -581,3 +581,37 @@ body {
 	height: 69px;
 	border-bottom: solid 1px #e6e9ec;
 }
+
+.name {
+	width: 118px;
+	height: 13px;
+	margin-top: 27px;
+	margin-left: 28px;
+	float: left;
+}
+
+#name-status {
+	display: block;
+	width: 100px;
+	height: 13px;
+	line-height: 13px;
+	font-size: 13px;
+	color: #585d68;
+	float: left;
+}
+
+#spot {
+	display: block;
+	width: 4px;
+	height: 4px;
+	border: solid 2px #1bb934;
+	border-radius: 4px;
+	background: #1bb934;
+	float: right;
+	margin-top: 4px;
+	margin-right: 10px;
+}
+
+.tools {
+	float: right;
+}
