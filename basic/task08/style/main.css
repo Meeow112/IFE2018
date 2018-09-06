@@ -613,5 +613,8 @@ body {
 }
 
 .tools {
+	width: 284px;
+	height: 32px;
+	margin-right: 20px;
 	float: right;
 }
