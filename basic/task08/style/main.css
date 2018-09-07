@@ -618,3 +618,15 @@ body {
 	margin-right: 20px;
 	float: right;
 }
+
+.settings {
+	width: 109px;
+	height: 32px;
+	float: left;
+}
+
+#add-friend {
+	width: 36px;
+	height: 32px;
+	
+}
