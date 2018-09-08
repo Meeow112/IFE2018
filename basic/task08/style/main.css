@@ -616,6 +616,7 @@ body {
 	width: 284px;
 	height: 32px;
 	margin-right: 20px;
+	margin-top: 16px;
 	float: right;
 }
 
@@ -626,7 +627,61 @@ body {
 }
 
 #add-friend {
+	display: block;
 	width: 36px;
 	height: 32px;
-	
+	background: url(../img/tools.jpg) no-repeat 0 0;
+	float: left;
 }
+
+#uploads {
+	display: block;
+	width: 37px;
+	height: 32px;
+	background: url(../img/tools.jpg) no-repeat -36px 0;
+	float: left;
+}
+
+#delete {
+	display: block;
+	width: 36px;
+	height: 32px;
+	background: url(../img/tools.jpg) no-repeat -73px 0;
+	float: left;
+}
+
+.pages {
+	width: 152px;
+	height: 32px;
+	float: right;
+}
+
+#count {
+	display: block;
+	width: 56px;
+	height: 30px;
+	margin-top: 1px;
+	font-size: 10px;
+	color: #56688a;
+	line-height: 30px;
+	padding-left: 22px;
+	border-left: solid 1px #f0f1f4;
+	float: left;
+}
+
+#left {
+	display: block;
+	width: 37px;
+	height: 32px;
+	background: url(../img/leftRight.jpg) no-repeat 0 0;
+	float: left;
+}
+
+#right {
+	display: block;
+	width: 36px;
+	height: 32px;
+	background: url(../img/leftRight.jpg) no-repeat -37px 0;
+	float: left;
+}
+
