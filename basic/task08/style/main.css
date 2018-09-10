@@ -689,3 +689,68 @@ body {
 	width: 830px;
 	height: 303px;
 }
+
+.friend1 {
+	width: 800px;
+	height: 80px;
+	margin-top: 25px;
+	margin-left: 30px;
+}
+
+.friend1 img {
+	width: 46px;
+	height: 46px;
+	float: left;
+}
+
+.friend1 .signa {
+	width: 733px;
+	height: 80px;
+	margin-left: 21px;
+	float: left;
+}
+
+.friend1 .upper {
+	width: 733px;
+	height: 11px;
+	margin-top: 5px;
+}
+
+.friend1 h1 {
+	display: block;
+	width: 89px;
+	height: 11px;
+	font-size: 14px;
+	color: #585d68;
+	float: left; 
+}
+
+.friend1 span {
+	display: block;
+	width: 49px;
+	height: 10px;
+	font-size: 10px;
+	color: #7f8fa4;
+	margin-left: 9px;
+	margin-top: 1px;
+	float: left;
+}
+
+.friend1 .down {
+	width: 733px;
+	height: 51px;
+	font-size: 10px;
+	color: #585d68;
+	line-height: 18px;
+	margin-top: 13px;
+}
+
+.demo_line_05{
+    letter-spacing: -1px;
+    color: #ddd;
+}
+.demo_line_05 span{
+    letter-spacing: 0;
+    color: #222;
+    margin:0 20px;
+}
