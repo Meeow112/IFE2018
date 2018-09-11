@@ -720,7 +720,7 @@ body {
 	display: block;
 	width: 89px;
 	height: 11px;
-	font-size: 14px;
+	font-size: 11px;
 	color: #585d68;
 	float: left; 
 }
@@ -741,16 +741,75 @@ body {
 	height: 51px;
 	font-size: 10px;
 	color: #585d68;
-	line-height: 18px;
+	line-height: 20px;
 	margin-top: 13px;
 }
 
-.demo_line_05{
-    letter-spacing: -1px;
-    color: #ddd;
+.friend2 {
+	width: 800px;
+	height: 173px;
+	margin-top: 25px;
+	margin-left: 30px;
 }
-.demo_line_05 span{
+
+.friend2 img {
+	width: 46px;
+	height: 46px;
+	float: left;
+}
+
+.friend2 .signa {
+	width: 733px;
+	height: 173px;
+	margin-left: 21px;
+	float: left;
+}
+
+.friend2 .upper {
+	width: 733px;
+	height: 11px;
+	margin-top: 5px;
+}
+
+.friend2 h1 {
+	display: block;
+	width: 112px;
+	height: 11px;
+	font-size: 11px;
+	color: #585d68;
+	float: left; 
+}
+
+.friend2 span {
+	display: block;
+	width: 49px;
+	height: 10px;
+	font-size: 10px;
+	color: #7f8fa4;
+	margin-left: 8px;
+	margin-top: 1px;
+	float: left;
+}
+
+.friend2 .down {
+	width: 733px;
+	height: 144px;
+	font-size: 10px;
+	color: #585d68;
+	line-height: 20px;
+	margin-top: 13px;
+}
+
+.rules-yesterday {
+	width: 830px;
+	height: 10px;
+	margin-top: 0;
+    letter-spacing: -0.7px;
+    color: #d9dde3;
+}
+.rules-yesterday span{
     letter-spacing: 0;
-    color: #222;
-    margin:0 20px;
+    font-size: 10px;
+    color: #d9dde3;
+    margin:0 17px;
 }
