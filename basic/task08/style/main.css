@@ -813,3 +813,113 @@ body {
     color: #d9dde3;
     margin:0 17px;
 }
+
+.friend3 {
+	width: 800px;
+	height: 80px;
+	margin-top: 25px;
+	margin-left: 30px;
+}
+
+.friend3 img {
+	width: 46px;
+	height: 46px;
+	float: left;
+}
+
+.friend3 .signa {
+	width: 733px;
+	height: 80px;
+	margin-left: 21px;
+	float: left;
+}
+
+.friend3 .upper {
+	width: 733px;
+	height: 11px;
+	margin-top: 5px;
+}
+
+.friend3 h1 {
+	display: block;
+	width: 89px;
+	height: 11px;
+	font-size: 11px;
+	color: #585d68;
+	float: left; 
+}
+
+.friend3 span {
+	display: block;
+	width: 49px;
+	height: 10px;
+	font-size: 10px;
+	color: #7f8fa4;
+	margin-left: 9px;
+	margin-top: 1px;
+	float: left;
+}
+
+.friend3 .down {
+	width: 733px;
+	height: 51px;
+	font-size: 10px;
+	color: #585d68;
+	line-height: 20px;
+	margin-top: 13px;
+}
+
+.friend4 {
+	width: 800px;
+	height: 173px;
+	margin-top: 25px;
+	margin-left: 30px;
+}
+
+.friend4 img {
+	width: 46px;
+	height: 46px;
+	float: left;
+}
+
+.friend4 .signa {
+	width: 733px;
+	height: 173px;
+	margin-left: 21px;
+	float: left;
+}
+
+.friend4 .upper {
+	width: 733px;
+	height: 11px;
+	margin-top: 5px;
+}
+
+.friend4 h1 {
+	display: block;
+	width: 112px;
+	height: 11px;
+	font-size: 11px;
+	color: #585d68;
+	float: left; 
+}
+
+.friend4 span {
+	display: block;
+	width: 49px;
+	height: 10px;
+	font-size: 10px;
+	color: #7f8fa4;
+	margin-left: 8px;
+	margin-top: 1px;
+	float: left;
+}
+
+.friend4 .down {
+	width: 733px;
+	height: 144px;
+	font-size: 10px;
+	color: #585d68;
+	line-height: 20px;
+	margin-top: 13px;
+}
