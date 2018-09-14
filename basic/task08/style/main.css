@@ -687,12 +687,12 @@ body {
 
 .now {
 	width: 830px;
-	height: 303px;
+	height: 260px;
 }
 
 .friend1 {
 	width: 800px;
-	height: 80px;
+	height: 82px;
 	margin-top: 25px;
 	margin-left: 30px;
 }
@@ -705,7 +705,7 @@ body {
 
 .friend1 .signa {
 	width: 733px;
-	height: 80px;
+	height: 82px;
 	margin-left: 21px;
 	float: left;
 }
@@ -738,17 +738,17 @@ body {
 
 .friend1 .down {
 	width: 733px;
-	height: 51px;
+	height:57px;
 	font-size: 10px;
 	color: #585d68;
-	line-height: 20px;
-	margin-top: 13px;
+	line-height: 19px;
+	margin-top: 9px;
 }
 
 .friend2 {
 	width: 800px;
-	height: 173px;
-	margin-top: 25px;
+	height: 158px;
+	margin-top: 20px;
 	margin-left: 30px;
 }
 
@@ -760,7 +760,7 @@ body {
 
 .friend2 .signa {
 	width: 733px;
-	height: 173px;
+	height: 158px;
 	margin-left: 21px;
 	float: left;
 }
@@ -793,11 +793,11 @@ body {
 
 .friend2 .down {
 	width: 733px;
-	height: 144px;
+	height: 133px;
 	font-size: 10px;
 	color: #585d68;
-	line-height: 20px;
-	margin-top: 13px;
+	line-height: 19px;
+	margin-top: 9px;
 }
 
 .rules-yesterday {
@@ -806,6 +806,7 @@ body {
 	margin-top: 0;
     letter-spacing: -0.7px;
     color: #d9dde3;
+    border: 1px solid yellow;
 }
 .rules-yesterday span{
     letter-spacing: 0;
@@ -816,7 +817,7 @@ body {
 
 .friend3 {
 	width: 800px;
-	height: 80px;
+	height: 83px;
 	margin-top: 25px;
 	margin-left: 30px;
 }
@@ -829,7 +830,7 @@ body {
 
 .friend3 .signa {
 	width: 733px;
-	height: 80px;
+	height: 83px;
 	margin-left: 21px;
 	float: left;
 }
@@ -862,17 +863,17 @@ body {
 
 .friend3 .down {
 	width: 733px;
-	height: 51px;
+	height: 57px;
 	font-size: 10px;
 	color: #585d68;
-	line-height: 20px;
-	margin-top: 13px;
+	line-height: 19px;
+	margin-top: 9px;
 }
 
 .friend4 {
 	width: 800px;
 	height: 173px;
-	margin-top: 25px;
+	margin-top: 20px;
 	margin-left: 30px;
 }
 
@@ -920,6 +921,6 @@ body {
 	height: 144px;
 	font-size: 10px;
 	color: #585d68;
-	line-height: 20px;
-	margin-top: 13px;
+	line-height: 19px;
+	margin-top: 9px;
 }
