@@ -816,14 +816,14 @@ body {
 }
 
 .yesterday {
-	width: ;
-	height: ;
+	width: 830px;
+	height: 343px;
 }
 
 .friend3 {
 	width: 800px;
-	height: 83px;
-	margin-top: 25px;
+	height: 63px;
+	margin-top: 22px;
 	margin-left: 30px;
 }
 
@@ -835,7 +835,7 @@ body {
 
 .friend3 .signa {
 	width: 733px;
-	height: 83px;
+	height: 63px;
 	margin-left: 21px;
 	float: left;
 }
@@ -868,7 +868,7 @@ body {
 
 .friend3 .down {
 	width: 733px;
-	height: 57px;
+	height: 38px;
 	font-size: 10px;
 	color: #585d68;
 	line-height: 19px;
@@ -877,7 +877,7 @@ body {
 
 .friend4 {
 	width: 800px;
-	height: 173px;
+	height: 230px;
 	margin-top: 20px;
 	margin-left: 30px;
 }
@@ -890,7 +890,7 @@ body {
 
 .friend4 .signa {
 	width: 733px;
-	height: 173px;
+	height: 230px;
 	margin-left: 21px;
 	float: left;
 }
@@ -923,9 +923,25 @@ body {
 
 .friend4 .down {
 	width: 733px;
-	height: 144px;
+	height: 95px;
 	font-size: 10px;
 	color: #585d68;
 	line-height: 19px;
 	margin-top: 9px;
+}
+
+.insertpic {
+	width: 325px;
+	height: 100px;
+	margin-top: 15px;
+}
+
+.insertpic img {
+	width: 156px;
+	height: 100px;
+	float: left;
+}
+
+#screenshoot1 {
+	margin-right: 13px;
 }
