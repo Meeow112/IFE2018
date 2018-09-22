@@ -958,3 +958,58 @@ body {
     color: #a7d6f9;
     margin:0 23px;
 }
+
+.friend5 {
+	width: 800px;
+	height: 63px;
+	margin-top: 22px;
+	margin-left: 30px;
+}
+
+.friend5 img {
+	width: 46px;
+	height: 46px;
+	float: left;
+}
+
+.friend5 .signa {
+	width: 733px;
+	height: 63px;
+	margin-left: 21px;
+	float: left;
+}
+
+.friend5 .upper {
+	width: 733px;
+	height: 11px;
+	margin-top: 5px;
+}
+
+.friend5 h1 {
+	display: block;
+	width: 89px;
+	height: 11px;
+	font-size: 11px;
+	color: #585d68;
+	float: left; 
+}
+
+.friend5 span {
+	display: block;
+	width: 49px;
+	height: 10px;
+	font-size: 10px;
+	color: #7f8fa4;
+	margin-left: 9px;
+	margin-top: 1px;
+	float: left;
+}
+
+.friend5 .down {
+	width: 733px;
+	height: 38px;
+	font-size: 10px;
+	color: #585d68;
+	line-height: 19px;
+	margin-top: 9px;
+}
