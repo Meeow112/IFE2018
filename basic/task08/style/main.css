@@ -962,7 +962,7 @@ body {
 .friend5 {
 	width: 800px;
 	height: 63px;
-	margin-top: 22px;
+	margin-top: 21px;
 	margin-left: 30px;
 }
 
@@ -1012,4 +1012,17 @@ body {
 	color: #585d68;
 	line-height: 19px;
 	margin-top: 9px;
+}
+
+.text-input {
+	width: 768px;
+	height: 52px;
+	margin-top: 26px;
+	margin-left: 29px;
+	border: solid 1px #ced0da;
+	border-radius: 2px;
+}
+
+.text-input button {
+	width: 
 }
