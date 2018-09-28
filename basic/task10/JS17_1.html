@@ -14,22 +14,32 @@
     <button id="divide-btn">除</button>
     <p id="result">运算结果</p>
     <script>
-        if (!isRealNum())
-        document.getElementById("add-btn").onclick = function() {
+        var value1 = document.getElementById("first-number").value;
+        var value2 = document.getElementById("second-number").value;
+
+        if ((!isRealNum(value1)) || (!isRealNum(value1))) {
+            document.getElementById("add-btn").onclick = function() {
             document.getElementById("result").innerHTML = parseInt(document.getElementById("first-number").value) + parseInt(document.getElementById("second-number").value);
-        };
-        document.getElementById("minus-btn").onclick = function() {
-            document.getElementById("result").innerHTML = parseInt(document.getElementById("first-number").value) - parseInt(document.getElementById("second-number").value);
-        };
-        document.getElementById("times-btn").onclick = function() {
-            document.getElementById("result").innerHTML = parseInt(document.getElementById("first-number").value) * parseInt(document.getElementById("second-number").value);
-        };
-        document.getElementById("divide-btn").onclick = function() {
-            document.getElementById("result").innerHTML = parseInt(document.getElementById("first-number").value) / parseInt(document.getElementById("second-number").value);
-        };
+            };
+            document.getElementById("minus-btn").onclick = function() {
+                document.getElementById("result").innerHTML = parseInt(document.getElementById("first-number").value) - parseInt(document.getElementById("second-number").value);
+            };
+            document.getElementById("times-btn").onclick = function() {
+                document.getElementById("result").innerHTML = parseInt(document.getElementById("first-number").value) * parseInt(document.getElementById("second-number").value);
+            };
+            document.getElementById("divide-btn").onclick = function() {
+                document.getElementById("result").innerHTML = parseInt(document.getElementById("first-number").value) / parseInt(document.getElementById("second-number").value);
+            };
+        }
         function isRealNum(val) {
             if (val === "" || val == null) {
                  console.log(document.write("请输入数字"));
+            }
+
+            if (!isNaN(val)) {
+                return true;
+            } else {
+                console.log(document.write("请输入数字"));
             }
         }
     </script>
