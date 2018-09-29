@@ -17,7 +17,7 @@
         var value1 = document.getElementById("first-number").value;
         var value2 = document.getElementById("second-number").value;
 
-        if ((!isRealNum(value1)) || (!isRealNum(value1))) {
+        if (value1) {
             document.getElementById("add-btn").onclick = function() {
             document.getElementById("result").innerHTML = parseInt(document.getElementById("first-number").value) + parseInt(document.getElementById("second-number").value);
             };
@@ -30,18 +30,29 @@
             document.getElementById("divide-btn").onclick = function() {
                 document.getElementById("result").innerHTML = parseInt(document.getElementById("first-number").value) / parseInt(document.getElementById("second-number").value);
             };
+        } else {
+            document.getElementById("add-btn").onclick = function() {
+                 document.getElementById("result").innerHTML = "Please input number!";
+            }            
         }
+
+
         function isRealNum(val) {
             if (val === "" || val == null) {
-                 console.log(document.write("请输入数字"));
+                return false;
             }
 
             if (!isNaN(val)) {
                 return true;
             } else {
-                console.log(document.write("请输入数字"));
+                return false;
             }
         }
+    //(isRealNum(value1)) && (isRealNum(value2))   
+
+    function onlyNum(that) {
+        that.value = that.value.replace(/\D/g,"");
+    } 
     </script>
 </body>
 </html>
