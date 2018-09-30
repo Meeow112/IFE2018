@@ -16,19 +16,21 @@
     <script>
         var value1 = document.getElementById("first-number").value;
         var value2 = document.getElementById("second-number").value;
+        var   reg1 = value1.replace(/\D/g,"");
+        var   reg2 = value2.replace(/\D/g,"");
 
-        if (value1) {
+        if ((value1.match(reg1) && (value2.match(reg2))) ) {
             document.getElementById("add-btn").onclick = function() {
-            document.getElementById("result").innerHTML = parseInt(document.getElementById("first-number").value) + parseInt(document.getElementById("second-number").value);
+            document.getElementById("result").innerHTML = parseInt(value1) + parseInt(value2);
             };
             document.getElementById("minus-btn").onclick = function() {
-                document.getElementById("result").innerHTML = parseInt(document.getElementById("first-number").value) - parseInt(document.getElementById("second-number").value);
+                document.getElementById("result").innerHTML = parseInt(value1) - parseInt(value2);
             };
             document.getElementById("times-btn").onclick = function() {
-                document.getElementById("result").innerHTML = parseInt(document.getElementById("first-number").value) * parseInt(document.getElementById("second-number").value);
+                document.getElementById("result").innerHTML = parseInt(value1) * parseInt(value2);
             };
             document.getElementById("divide-btn").onclick = function() {
-                document.getElementById("result").innerHTML = parseInt(document.getElementById("first-number").value) / parseInt(document.getElementById("second-number").value);
+                document.getElementById("result").innerHTML = parseInt(value1) / parseInt(value2);
             };
         } else {
             document.getElementById("add-btn").onclick = function() {
