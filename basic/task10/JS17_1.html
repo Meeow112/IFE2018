@@ -13,48 +13,61 @@
     <button id="times-btn">乘</button>
     <button id="divide-btn">除</button>
     <p id="result">运算结果</p>
-    <script>
-        var value1 = document.getElementById("first-number").value;
-        var value2 = document.getElementById("second-number").value;
-        var   reg1 = value1.replace(/\D/g,"");
-        var   reg2 = value2.replace(/\D/g,"");
-
-        if ((value1.match(reg1) && (value2.match(reg2))) ) {
+    <script> 
             document.getElementById("add-btn").onclick = function() {
-            document.getElementById("result").innerHTML = parseInt(value1) + parseInt(value2);
-            };
-            document.getElementById("minus-btn").onclick = function() {
-                document.getElementById("result").innerHTML = parseInt(value1) - parseInt(value2);
-            };
-            document.getElementById("times-btn").onclick = function() {
-                document.getElementById("result").innerHTML = parseInt(value1) * parseInt(value2);
-            };
-            document.getElementById("divide-btn").onclick = function() {
-                document.getElementById("result").innerHTML = parseInt(value1) / parseInt(value2);
-            };
-        } else {
-            document.getElementById("add-btn").onclick = function() {
-                 document.getElementById("result").innerHTML = "Please input number!";
-            }            
-        }
+                var value1 = document.getElementById("first-number").value;
+                var value2 = document.getElementById("second-number").value;
 
+                if ((isRealNum(value1)) && (isRealNum(value2))) {
+                    console.log(value1);
+                    document.getElementById("result").innerHTML = parseInt(value1) + parseInt(value2);
+                } else {
+                    document.getElementById("result").innerHTML = "Please input number!";
+                }   
+            };
+             document.getElementById("minus-btn").onclick = function() {
+                var value1 = document.getElementById("first-number").value;
+                var value2 = document.getElementById("second-number").value;
+                
+                if ((isRealNum(value1)) && (isRealNum(value2))) {
+                    console.log(value1);
+                    document.getElementById("result").innerHTML = parseInt(value1) - parseInt(value2);
+                } else {
+                    document.getElementById("result").innerHTML = "Please input number!";
+                }   
+            };
+             document.getElementById("times-btn").onclick = function() {
+                var value1 = document.getElementById("first-number").value;
+                var value2 = document.getElementById("second-number").value;
+                
+                if ((isRealNum(value1)) && (isRealNum(value2))) {
+                    console.log(value1);
+                    document.getElementById("result").innerHTML = parseInt(value1) * parseInt(value2);
+                } else {
+                    document.getElementById("result").innerHTML = "Please input number!";
+                }   
+            };
+             document.getElementById("divide-btn").onclick = function() {
+                var value1 = document.getElementById("first-number").value;
+                var value2 = document.getElementById("second-number").value;
+                
+                if ((isRealNum(value1)) && (isRealNum(value2))) {
+                    console.log(value1);
+                    document.getElementById("result").innerHTML = parseInt(value1) / parseInt(value2);
+                } else {
+                    document.getElementById("result").innerHTML = "Please input number!";
+                }   
+            };
 
         function isRealNum(val) {
-            if (val === "" || val == null) {
+            if (val === "" || val === null) {
                 return false;
-            }
-
-            if (!isNaN(val)) {
+            } else if (!isNaN(val)) {
                 return true;
             } else {
                 return false;
             }
-        }
-    //(isRealNum(value1)) && (isRealNum(value2))   
-
-    function onlyNum(that) {
-        that.value = that.value.replace(/\D/g,"");
-    } 
+        } 
     </script>
 </body>
 </html>
