@@ -13,12 +13,13 @@
     <button id="times-btn">乘</button>
     <button id="divide-btn">除</button>
     <p id="result">运算结果</p>
-    <script> 
+    <script>
+            //加 
             document.getElementById("add-btn").onclick = function() {
                 var value1 = document.getElementById("first-number").value;
                 var value2 = document.getElementById("second-number").value;
 
-                if (value1.length > 0) {
+                if (value1.length > 0 && value2.length > 0) {
                     if ((isRealNum(value1)) && (isRealNum(value2))) {
                         console.log(value1);
                         document.getElementById("result").innerHTML = parseInt(value1) + parseInt(value2);
@@ -29,38 +30,53 @@
                     document.getElementById("result").innerHTML = "Please input a number!";
                 }       
             };
-             document.getElementById("minus-btn").onclick = function() {
+            //减
+            document.getElementById("minus-btn").onclick = function() {
                 var value1 = document.getElementById("first-number").value;
                 var value2 = document.getElementById("second-number").value;
-                
-                if ((isRealNum(value1)) && (isRealNum(value2))) {
-                    console.log(value1);
-                    document.getElementById("result").innerHTML = parseInt(value1) - parseInt(value2);
+
+                if (value1.length > 0 && value2.length > 0) {
+                    if ((isRealNum(value1)) && (isRealNum(value2))) {
+                        console.log(value1);
+                        document.getElementById("result").innerHTML = parseInt(value1) - parseInt(value2);
+                    } else {
+                        document.getElementById("result").innerHTML = "Please input number!";
+                    }
                 } else {
-                    document.getElementById("result").innerHTML = "Please input number!";
-                }   
+                    document.getElementById("result").innerHTML = "Please input a number!";
+                }       
             };
-             document.getElementById("times-btn").onclick = function() {
+            //乘
+            document.getElementById("times-btn").onclick = function() {
                 var value1 = document.getElementById("first-number").value;
                 var value2 = document.getElementById("second-number").value;
-                
-                if ((isRealNum(value1)) && (isRealNum(value2))) {
-                    console.log(value1);
-                    document.getElementById("result").innerHTML = parseInt(value1) * parseInt(value2);
+
+                if (value1.length > 0 && value2.length > 0) {
+                    if ((isRealNum(value1)) && (isRealNum(value2))) {
+                        console.log(value1);
+                        document.getElementById("result").innerHTML = parseInt(value1) * parseInt(value2);
+                    } else {
+                        document.getElementById("result").innerHTML = "Please input number!";
+                    }
                 } else {
-                    document.getElementById("result").innerHTML = "Please input number!";
-                }   
+                    document.getElementById("result").innerHTML = "Please input a number!";
+                }       
             };
-             document.getElementById("divide-btn").onclick = function() {
+            //除
+            document.getElementById("divide-btn").onclick = function() {
                 var value1 = document.getElementById("first-number").value;
                 var value2 = document.getElementById("second-number").value;
-                
-                if ((isRealNum(value1)) && (isRealNum(value2))) {
-                    console.log(value1);
-                    document.getElementById("result").innerHTML = parseInt(value1) / parseInt(value2);
+
+                if (value1.length > 0 && value2.length > 0) {
+                    if ((isRealNum(value1)) && (isRealNum(value2))) {
+                        console.log(value1);
+                        document.getElementById("result").innerHTML = parseInt(value1) / parseInt(value2);
+                    } else {
+                        document.getElementById("result").innerHTML = "Please input number!";
+                    }
                 } else {
-                    document.getElementById("result").innerHTML = "Please input number!";
-                }   
+                    document.getElementById("result").innerHTML = "Please input a number!";
+                }       
             };
 
         function isRealNum(val) {
