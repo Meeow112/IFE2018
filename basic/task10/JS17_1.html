@@ -18,7 +18,7 @@
             document.getElementById("add-btn").onclick = function() {
                 var value1 = document.getElementById("first-number").value;
                 var value2 = document.getElementById("second-number").value;
-
+                //必须输入一位数
                 if (value1.length > 0 && value2.length > 0) {
                     if ((isRealNum(value1)) && (isRealNum(value2))) {
                         console.log(value1);
@@ -34,7 +34,7 @@
             document.getElementById("minus-btn").onclick = function() {
                 var value1 = document.getElementById("first-number").value;
                 var value2 = document.getElementById("second-number").value;
-
+                //必须输入一位数
                 if (value1.length > 0 && value2.length > 0) {
                     if ((isRealNum(value1)) && (isRealNum(value2))) {
                         console.log(value1);
@@ -50,7 +50,7 @@
             document.getElementById("times-btn").onclick = function() {
                 var value1 = document.getElementById("first-number").value;
                 var value2 = document.getElementById("second-number").value;
-
+                //必须输入一位数
                 if (value1.length > 0 && value2.length > 0) {
                     if ((isRealNum(value1)) && (isRealNum(value2))) {
                         console.log(value1);
@@ -66,11 +66,17 @@
             document.getElementById("divide-btn").onclick = function() {
                 var value1 = document.getElementById("first-number").value;
                 var value2 = document.getElementById("second-number").value;
-
+                //必须输入一位数
                 if (value1.length > 0 && value2.length > 0) {
                     if ((isRealNum(value1)) && (isRealNum(value2))) {
-                        console.log(value1);
-                        document.getElementById("result").innerHTML = parseInt(value1) / parseInt(value2);
+                        //除数不能为0
+                        if (value2 === "0") {
+                            console.log("The divisor can not be 0");                           
+                        } else {
+                            console.log(value1);
+                            document.getElementById("result").innerHTML = parseInt(value1) / parseInt(value2);
+                        }
+                        
                     } else {
                         document.getElementById("result").innerHTML = "Please input number!";
                     }
@@ -78,7 +84,7 @@
                     document.getElementById("result").innerHTML = "Please input a number!";
                 }       
             };
-
+        //判断是否是数字的函数
         function isRealNum(val) {
             if (val === " " || val == null) {
                 return false;
