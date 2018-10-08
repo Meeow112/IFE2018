@@ -12,7 +12,20 @@
 
 function dec2bin(decNumber) {
     // 在这里实现你的转化方法，注意需要判断输入必须为一个非负整数
-    var r = /0|^[1-9]*$/;
+    var reg = /0|^[1-9]\d*$/;
+    if (decNumber.match(reg)) {
+    	if (decNumber === "0") {
+    		sum = 0;
+    	} else {
+    		var resArry = [decNumber % 2]
+    		for (var i = 0; decNumber != 0; i++) {
+    			decNumber = parseInt (decNumber / 2);
+    			resArry.push (decNumber % 2);
+    		}
+    	}
+    } else {
+    	return false;
+    }
     
 }
 
