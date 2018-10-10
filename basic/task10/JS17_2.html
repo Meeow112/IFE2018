@@ -18,17 +18,17 @@ function dec2bin(decNumber) {
     		sum = 0;
     	} else {
     		var arr = new Array();
-    		for (var i = 0; 1; i++) {
-    			if (decNumber / 2 >= 1) {
-    				arr[i] = decNumber % 2;
-    				decNumber = parseInt(decNumber / 2);
-    			} else {
-    				arr[i] = 1;
-    				break;
-    			}
+    		var xarr = mew Array();
+    		for (var i = 0;decNumber > 0;i++) {
+    			arr.push(decNumber % 2);
+    			decNumber = parseInt(decNumber / 2);
     		}
-    		for (i = arr.length; i > 0; i--) {
-    			
+    		for (j = j-1; j >= 0 ;j--) {
+    			xarr.push(arr[j]);
+    			for (var r = xarr.length; r < 2; r++) {
+    				xarr.unshift(0);
+    			}
+    			return xarr.join().replace(/,/g,'');
     		}
     	}
     } else {
