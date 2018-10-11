@@ -13,33 +13,34 @@
 function dec2bin(decNumber) {
     // 在这里实现你的转化方法，注意需要判断输入必须为一个非负整数
     var reg = /0|^[1-9]\d*$/;
+    var result = document.getElementById("result");
+    var sum =result.innerHTML
     if (decNumber.match(reg)) {
     	if (decNumber === "0") {
     		sum = 0;
     	} else {
     		var arr = new Array();
-    		var xarr = mew Array();
+    		var xarr = new Array();
     		for (var i = 0;decNumber > 0;i++) {
     			arr.push(decNumber % 2);
     			decNumber = parseInt(decNumber / 2);
     		}
-    		for (j = j-1; j >= 0 ;j--) {
-    			xarr.push(arr[j]);
-    			for (var r = xarr.length; r < 2; r++) {
-    				xarr.unshift(0);
-    			}
-    			return xarr.join().replace(/,/g,'');
+    		for (var j = 0; j < arr.length ;j--) {
+    			xarr[j] = arr[arr.length-1];
     		}
+    		sum =  xarr.join().replace(/,/g,'');
     	}
     } else {
-    	return false;
+    	sum = "请输入一个正整数";
     }
     
 }
 
 // 实现当点击转化按钮时，将输入的十进制数字转化为二进制，并显示在result的p标签内
 // Some coding
-
+var transBtn = document.getElementById("trans-btn");
+var dec = document.getElementById("dec-number").value;
+transBtn.onclick = function dec2bin(dec);
     </script>
 </body>
 </html>
