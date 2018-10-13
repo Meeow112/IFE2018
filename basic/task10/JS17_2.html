@@ -11,9 +11,9 @@
     <script>
 function dec2bin(decNumber) {
     // 在这里实现你的转化方法，注意需要判断输入必须为一个非负整数
-    var reg = /0|^[1-9]\d*$/
+   // var reg = /0|^[1-9]\d*$/
     var result = document.getElementById("result")
-    if (decNumber.match(reg)) {
+   // if (decNumber.match(reg)) {
     	if (decNumber === "0") {
     		result.innerHTML = 0
     	} else {
@@ -28,9 +28,9 @@ function dec2bin(decNumber) {
     		}
     		result.innerHTML =  xarr.join().replace(/,/g,'')
     	}
-    } else {
-    	result.innerHTML = "请输入一个正整数"
-    }
+   // } else {
+   //	result.innerHTML = "请输入一个正整数"
+   // }
 }
 
 // 实现当点击转化按钮时，将输入的十进制数字转化为二进制，并显示在result的p标签内
