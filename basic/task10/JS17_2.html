@@ -12,8 +12,8 @@
 //function dec2bin(decNumber) {
     // 在这里实现你的转化方法，注意需要判断输入必须为一个非负整数
    	//var reg = /0|^[1-9]\d*$/
-function d2b() {   	
    	var transBtn = document.getElementById("trans-btn")
+function d2b() {   	
 	var dec = document.getElementById("dec-number")
 	var d = dec.value
     var result = document.getElementById("result")
@@ -22,9 +22,14 @@ function d2b() {
     	} else {
     		var arr = new Array()
     		var xarr = new Array()
-    		for (var i = 0;decNumber > 0;i++) {
-    			arr.push(decNumber % 2)
-    			decNumber = parseInt(decNumber / 2)
+    		for (var i = 0;;i++) {
+    			if (d / 2 >= 1) {
+    				arr.push(d % 2)
+    				d = parseInt(d / 2)
+    			}	else {
+    				d[i] = 1
+    				break
+    			}
     		}
     		for (var j = 0; j < arr.length;j--) {
     			xarr[j] = arr[arr.length-1]
