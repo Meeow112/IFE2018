@@ -21,26 +21,24 @@ function d2b() {
     		result.innerHTML = "0"
     	} else {
     		var arr = new Array()
-    		var xarr = new Array()
-    		for (var i = 0;;i++) {
-    			if (d / 2 >= 1) {
-    				arr[i] = d % 2
-    				d = parseInt(d / 2)
-    			}	else {
-    				d[i] = 1
-    				break
-    			}
+    		var m = 0
+    		while (parseInt(d / 2) !== 0) {
+    			var n = d % 2
+    			m = arr.unshift(n)
+    			d = parseInt(d / 2)
     		}
-    		for (var j = 0; j < arr.length;j--) {
-    			xarr[j] = arr[arr.length-1]
+    		m = arr.unshift(1)
+    		var s = ''
+    		for (i = 0; i < m; i++) {
+    			s += arr[i]
     		}
-    		result.innerHTML =  xarr.join().replace(/,/g,'')
+    		result.textContent = '运算结果：' + s
     	}
 //}
 }
 
 // 实现当点击转化按钮时，将输入的十进制数字转化为二进制，并显示在result的p标签内
-// Some coding modified nothing
+// Some coding 
 transBtn.onclick = function() {
 	d2b()
 }
